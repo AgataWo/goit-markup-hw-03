@@ -177,7 +177,7 @@ body {
 .portfolio-projects-ul {
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
   margin-top: 34px;
@@ -337,10 +337,7 @@ body {
   padding: 60px 0;
   color: white;
 }
-.footer-container {
-  margin: 0 auto;
-  width: 1170px;
-}
+
 
 .logo-txt-footer {
   margin-bottom: 20px;
