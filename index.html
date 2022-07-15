@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,33 +17,33 @@
 </head>
 
 <body>
-        <header class="header">
-            <div class="container header-container">
-                <nav class="nav">
-                    <a href="index.html" class="logo-txt"><span
-                            class="logo-txt-blue">Web</span>Studio</a>
-                    <ul class="nav-ul" >
-                        <li class="nav-item"><a href="" class="link-header">Agencja</a></li>
-                        <li class="nav-item"><a href="portfolio.html" class="link-header">Portfolio</a></li>
-                        <li class="nav-item"><a href="" class="link-header">Kontakt</a></li>
-                    </ul>
-                </nav>
-                <ul class="contact">
-                    <li class="contact-item"><a href="mailto:info@devstudio.com"
-                            class="link-header contact-link">info@devstudio.com</a></li>
-                    <li class=" contact-item"><a href="tel:+48111111111" class="link-header contact-link">+48 111 111
-                            111</a></li>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <a href="index.html" class="logo-txt"><span class="logo-txt-blue">Web</span>Studio</a>
+                <ul class="nav-ul">
+                    <li class="nav-item"><a href="" class="link-header">Agencja</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="link-header">Portfolio</a></li>
+                    <li class="nav-item"><a href="" class="link-header">Kontakt</a></li>
                 </ul>
+            </nav>
+            <ul class="contact">
+                <li class="contact-item"><a href="mailto:info@devstudio.com"
+                        class="link-header contact-link">info@devstudio.com</a></li>
+                <li class=" contact-item"><a href="tel:+48111111111" class="link-header contact-link">+48 111 111
+                        111</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="container banner-items">
+                <h1 class="h-first">Efektywne rozwiązania dla waszego biznesu</h1>
+                <button type="button" class="main-button">Zamów usługę</button>
             </div>
-        </header>
-        <main>
-            <div class="banner">
-                <div class="container banner-items">
-                    <h1 class="h-first">Efektywne rozwiązania dla waszego biznesu</h1>
-                    <button type="button" class="main-button">Zamów usługę</button>
-                </div>
-            </div>
-            <section class="container descriptions section">
+        </div>
+        <div class="container">
+            <section class="descriptions section">
                 <ul class="description-items">
                     <li class="description-item">
                         <h4 class="h-fourth">Lorem ipsum</h4>
@@ -74,9 +75,9 @@
                     </li>
                 </ul>
             </section>
-            <section class="container specialities section">
+            <section class=" specialities section">
                 <h2 class="h-second">Czym się zajmujemy</h2>
-                <ul class="specialities-list" >
+                <ul class="specialities-list">
                     <li class="specialities-item">
                         <img src="images/imgtech1.jpg" alt="first specialty" height="294" width="370" />
                     </li>
@@ -88,9 +89,12 @@
                     </li>
                 </ul>
             </section>
-            <section class="team section">
+        </div>
+
+        <section class="team section">
+            <div class="container">
                 <h2 class="h-second team-tittle">Nasz Zespół</h2>
-                <div class="container team-members">
+                <div class=" team-members">
                     <ul class="team-members-list">
                         <li class="member">
                             <img src="images/team1.jpg" alt="team member 1" height="260" width="270" />
@@ -116,19 +120,20 @@
                         </li>
                     </ul>
                 </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container footer-container">
-                <a href="index.html" class="logo-txt logo-txt-footer"><span
-                        class="logo-txt-blue">Web</span>Studio</a>
-                <address class="address address-footer">
-                    <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-                    <a href="mailto:info@devstudio.com" class="link-footer">info@devstudio.com</a><br>
-                    <a href="tel:+48111111111" class="link-footer">+48 111 111 111</a>
-                </address>
             </div>
-        </footer>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="index.html" class="logo-txt logo-txt-footer"><span class="logo-txt-blue">Web</span>Studio</a>
+            <address class="address address-footer">
+                <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                <a href="mailto:info@devstudio.com" class="link-footer">info@devstudio.com</a><br>
+                <a href="tel:+48111111111" class="link-footer">+48 111 111 111</a>
+            </address>
+        </div>
+    </footer>
 </body>
 
 </html>
